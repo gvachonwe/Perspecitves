@@ -12,7 +12,7 @@ body {
     background-color: #FFFFFF;
     font-family: 'Source Sans Pro', sans-serif;
     min-height: 100vh;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .main-nav ul {
@@ -24,7 +24,7 @@ body {
 
 .main-nav a {
     color: #28241E;
-    font: 'Source Sans Pro';
+    font: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
     text-decoration: none;
     padding: 1rem;
@@ -50,7 +50,6 @@ body {
 
 .main-section h1 {
     font-size: 3em;
-    border: 1px solid indianred;
     margin: 0em;
     padding-bottom: 0.4em;
 }
@@ -64,14 +63,37 @@ body {
 .content h2 {
     font-size: 1.6em;
     /*border: 1px solid purple;*/
-    margin: 0em;
-    padding-bottom: 0.3em;
-    padding-top: 0.7em;
+    margin: 0.9em 0em 0.2em 0em;
+}
+
+.content h3 {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    /*border: 1px solid purple;*/
+    margin: 2em 0em;
+    padding: 0.3em 0em;
+    text-align: center;
 }
 
 .content p {
     font-size: 1em;
     /*border: 1px solid goldenrod;*/
     margin: 0em;
-    padding-bottom: 0.3em;
+    /*padding-bottom: 0.2em;*/
+}
+
+.main-action h1 {
+    display: none;
+}
+
+.action {
+    font: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.action h2 {
+    font-size: 1.6em;
+    /*border: 1px solid purple;*/
+    margin: 0.9em 0em 0.2em 0em;
 }
