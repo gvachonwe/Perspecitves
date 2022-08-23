@@ -86,22 +86,32 @@ body {
     /*padding-bottom: 0.2em;*/
 }
 
+.main-action {
+    border: 1px solid green;
+    background-image: url(images/blur.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    min-height: 100%;
+    overflow: visible;
+    margin: 0em;
+    padding: 0em;
+}
+
 .main-action h1 {
     display: none;
 }
 
 .action {
+    display: block;
     font: 'Source Sans Pro';
-    text-decoration: none;
-    font-weight: normal;
     border: 1px solid goldenrod;
-    align-items: center;
 }
 
 .action h2 {
     font-size: 3em;
     margin: 1em 0em 0.4em 0em;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .action h3 {
@@ -125,12 +135,14 @@ body {
 }
 
 .action a {
+    display: inline-block;
     color: #FFFFFF;
     font-weight: bolder;
     text-decoration: none;
     padding: 0.75em 1.5em;
     background-color: #0D0C11;
     border-radius: 0.5rem;
+    margin: 0em 0em 5em 0em;
 }
 
 .action a:hover {
